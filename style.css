@@ -25,7 +25,6 @@ nav.links a:hover{color:var(--ink)}
 .langbtns button.active{color:var(--ink); border-color:var(--muted)}
 
 .hero{padding:52px 0 30px; text-align:center}
-.hero img.appicon{width:76px; height:76px; border-radius:16px; margin-bottom:16px}
 h1{font-size:32px; margin:.2em 0; font-weight:700}
 .tag{color:var(--muted); font-size:18px; max-width:520px; margin:.4em auto 0}
 .cta{margin-top:24px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap}
