@@ -47,4 +47,6 @@ ul{padding-left:20px} li{margin:.25em 0}
 .date{color:var(--muted); font-size:14px}
 footer.site{border-top:1px solid var(--line); padding:24px 0; color:var(--muted); font-size:14px; text-align:center}
 footer.site a{color:var(--muted)}
-.lang-en{display:none}
+/* 未激活的语言隐藏；激活的语言不加 display 规则 → 保持元素本身的 inline/block */
+html:not(.lang-en-active) .lang-en{display:none}
+html.lang-en-active .lang-zh{display:none}
