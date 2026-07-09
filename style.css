@@ -19,7 +19,7 @@ header.site{border-bottom:1px solid var(--line)}
 nav.links{margin-left:auto; display:flex; gap:16px; font-size:15px}
 nav.links a{color:var(--muted); text-decoration:none}
 nav.links a:hover{color:var(--ink)}
-.langbtns{display:flex; gap:4px; margin-left:4px}
+.langbtns{display:flex; gap:4px; margin-left:auto}
 .langbtns button{cursor:pointer; border:1px solid var(--line); background:transparent; color:var(--muted);
   border-radius:6px; padding:3px 9px; font-size:13px}
 .langbtns button.active{color:var(--ink); border-color:var(--muted)}
