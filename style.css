@@ -48,4 +48,4 @@ footer.site{border-top:1px solid var(--line); padding:24px 0; color:var(--muted)
 footer.site a{color:var(--muted)}
 /* 未激活的语言隐藏；激活的语言不加 display 规则 → 保持元素本身的 inline/block */
 html:not(.lang-en-active) .lang-en{display:none}
-html.lang-en-active .lang-zh{display:none}
+html.lang-en-active .lang-ja{display:none}
