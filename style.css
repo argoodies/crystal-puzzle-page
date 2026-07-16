@@ -14,7 +14,7 @@ a:hover{color:#fff}
 
 header.site{border-bottom:1px solid var(--line)}
 .bar{display:flex; align-items:center; gap:12px; height:58px}
-.brand{display:flex; align-items:center; gap:9px; font-weight:600}
+.brand{display:flex; align-items:center; gap:9px; font-weight:600; text-decoration:none; color:var(--ink); cursor:pointer}
 .brand img{width:24px; height:24px; border-radius:6px}
 nav.links{margin-left:auto; display:flex; gap:16px; font-size:15px}
 nav.links a{color:var(--muted); text-decoration:none}
